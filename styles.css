@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #e4e5f1;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.faded {
+  color: #888990;
+}
+
+.header {
+  background-color: #25273c;
+}
+
+.user-dropbox {
+
+}
+
+.title {
+
+}
+
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h3 {
+  margin: 15px;
+}
+
+.main {
+  background-color: #777a92;
+}
