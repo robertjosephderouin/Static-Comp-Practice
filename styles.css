@@ -16,7 +16,7 @@ html, body {
 }
 
 .header {
-  padding: 10px;
+  padding: 2vw;
   display: flex;
   justify-content: flex-start;
 }
@@ -32,9 +32,46 @@ html, body {
 }
 
 h3 {
-  margin: 15px;
+  margin: 1vw;
 }
 
 .main {
   background-color: #777a92;
+}
+
+.subtitle {
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.shares {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.recipeint {
+  border-radius: 20px;
+  margin: .75vw;
+  padding: .50vw;
+  background-color: #adafbd
+
+}
+
+.date {
+  font-size: smaller;
+}
+
+.url {
+  padding: .5vw;
+  background-color: #cdcfd7
+}
+
+.playlist {
+  font-size: smaller;
+}
+
+.number {
+  color: #cacde8;
+  font-size: larger;
 }
