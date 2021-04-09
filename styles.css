@@ -3,28 +3,32 @@ html, body {
   padding: 0;
   color: #e4e5f1;
   text-shadow: 2px 2px 4px #000000;
+  background-color: #25273c;
 }
 
 .faded {
   color: #888990;
 }
 
+.select {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .header {
-  background-color: #25273c;
-}
-
-.user-dropbox {
-
-}
-
-.title {
-
-}
-
-.nav {
   padding: 10px;
   display: flex;
   justify-content: flex-start;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-end;
 }
 
 h3 {
