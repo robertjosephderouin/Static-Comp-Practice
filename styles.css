@@ -4,6 +4,8 @@ html, body {
   color: #e4e5f1;
   text-shadow: 2px 2px 4px #000000;
   background-color: #25273c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 }
 
 .faded {
@@ -11,28 +13,36 @@ html, body {
 }
 
 .select {
+  margin: 1vw;
+  margin-left: auto;
   display: flex;
   justify-content: flex-end;
 }
 
 .header {
-  padding: 2vw;
+  margin: 1vw;
+  padding: .5vw;
   display: flex;
   justify-content: flex-start;
 }
 
 .nav {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
 }
 
 .title {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.logo {
+  width: 2.5%;
+  height: auto;
 }
 
 h3 {
-  margin: 1vw;
+  padding: .25vw;
 }
 
 .main {
@@ -51,11 +61,17 @@ h3 {
 }
 
 .recipeint {
+  width: 20%;
   border-radius: 20px;
   margin: .75vw;
   padding: .50vw;
   background-color: #adafbd
 
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
 }
 
 .date {
